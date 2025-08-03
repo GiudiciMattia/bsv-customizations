@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Bsv Custom Immich Connector
  * Description: Connettore Immich per gestione album fotografici.
- * Version: 1.1b
+ * Version: 1.1f
  * Author: Mattia Giudici
  * License: GPL2+
  */
@@ -18,3 +18,7 @@ function bsv_custom_immich_connector_enqueue_assets() {
     wp_enqueue_script('bsv-custom-immich-connector-js', plugin_dir_url(__FILE__) . 'assets/js/bsv-custom-immich-connector.js', ['jquery'], '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'bsv_custom_immich_connector_enqueue_assets');
+
+
+require_once plugin_dir_path(__FILE__) . 'includes/settings.php';
+require_once plugin_dir_path(__FILE__) . 'includes/admin-menu.php';

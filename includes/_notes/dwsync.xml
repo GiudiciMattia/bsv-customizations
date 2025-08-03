@@ -3,4 +3,6 @@
 <file name="utilities.php" server="192.168.207.54//var/www/wordpress/" local="133986038180000000" remote="133986038180000000" Dst="2" />
 <file name="shortcodes.php" server="192.168.207.54//var/www/wordpress/" local="133986042320000000" remote="133986042320000000" Dst="2" />
 <file name="hooks.php" server="192.168.207.54//var/www/wordpress/" local="133986038180000000" remote="133986038180000000" Dst="2" />
+<file name="admin-menu.php" server="192.168.207.54//var/www/wordpress/" local="133987091600000000" remote="133987091600000000" Dst="2" />
+<file name="settings.php" server="192.168.207.54//var/www/wordpress/" local="133987093760000000" remote="133987093760000000" Dst="2" />
 </dwsync>
