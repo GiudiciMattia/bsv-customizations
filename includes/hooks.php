@@ -1,0 +1,2 @@
+<?php
+// File hooks placeholder

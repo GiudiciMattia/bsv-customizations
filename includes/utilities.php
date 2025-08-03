@@ -1,0 +1,2 @@
+<?php
+// File utilities placeholder
